@@ -47,8 +47,9 @@ def plot_nrz_unipolar(bits, ultimo=0):
 def main():
     # Streamlit UI
     st.title('Gráfico NRZ Unipolar')
-
+    st.text("<explicar mostrar codigo, dar exemplo de uso, se é bom ou ruim, etc.>")
     # Entrada do usuário para os bits
+    st.text("Gerar apartir de sua entrada: ")
     bits_input = st.text_input('Digite a sequência de bits (por exemplo, 01001110):', '01001110')
     ultimo_bit = st.number_input('Último bit (0 ou 1):', min_value=0, max_value=1, value=0)
 
