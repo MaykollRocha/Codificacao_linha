@@ -26,7 +26,7 @@ def main_page():
                 Definir a razão r, que é o número de elementos de dados transportados pelos elementos de sinal
              """)
     st.latex(r''' r = \frac{\text{elemento de dados}}{\text{elemento de sinal}} ''')
-    st.image("\img\grafico_representação de R.png", caption="Um elemento de dados por um elemento de sinal (r = 1)")
+    st.image("/img/grafico_representação de R.png", caption="Um elemento de dados por um elemento de sinal (r = 1)")
     
     st.markdown("""
                 Na parte da figura, um elemento de dados é transportado por um elemento de sinal (r = 1).
@@ -37,7 +37,7 @@ def main_page():
             ## Métodos de Codificação de Linha
             De forma resumida, dividimos os métodos de codificação de linha em cinco grandes categorias e existem vários métodos dentro de cada categoria.
             """)
-    st.image('\img\Métodos de codificação de linha.png', caption='Métodos de codificação de linha')
+    st.image('/img/Métodos de codificação de linha.png', caption='Métodos de codificação de linha')
     
     
     
