@@ -1,0 +1,23 @@
+# TCC - Sistema de Codificação de Linha
+
+Esse sistema séra implementada para conseguir fazer algumas Codificações de Linha em 
+Tecnologia e Comunicação de dados
+
+Passos para configurar o ambiente e instalar as dependências.
+
+1. **Clone o repositório**:
+   ```bash
+   git clone https://github.com/seu-usuario/nome-do-repositorio.git
+   cd nome-do-repositorio
+2. **ative um ambiente virtual**
+    Windons
+    venv\Scripts\activate
+    No macOS/Linux:
+    source venv/bin/activate
+3. **Instale as dependências:**
+    pip install -r requirements.txt
+
+4. **USO**
+    streamlit run app.py
+
+
