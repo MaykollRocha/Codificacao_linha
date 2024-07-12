@@ -42,7 +42,6 @@ def main_page():
     
     
     st.subheader("Unipolar")
-    st.markdown("<Descrissão de um gráfico Unipolar>")
     if st.button('NRZ'):
         st.session_state.page = 'nrz'
         
