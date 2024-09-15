@@ -80,6 +80,6 @@ elif st.session_state.page == 'nrz':
 else:
     main_page()
     st.write("""
-             Ainda está em desenvolvimento
+             Ainda está em desenvolvimento caso queria ver como ta o processo dos codigo o link é este: https://colab.research.google.com/drive/1Az6tqsmqv1G1woFCXaNf_l8TY1PfpiO8?usp=sharing
              """)
 
