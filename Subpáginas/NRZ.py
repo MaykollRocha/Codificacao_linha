@@ -130,7 +130,7 @@ def grafico_NRZ(x, y, labels, high_level, low_level, bits):
     plt.grid(True)
     st.pyplot(plt)
             
-            """,langage='python')
+            """)
     # Entrada do usuário para os bits
     st.text("Gerar apartir de sua entrada: ")
     bits_input = st.text_input('Digite a sequência de bits (por exemplo, 01001110):', '01001110')
